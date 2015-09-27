@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/granadabk3"
+    android:weightSum="5"  tools:context=".MainActivity"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingRight="120dp">
+
+
+
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxPreferences"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:layout_marginLeft="30dp"
+            android:clickable="true"
+            android:onClick="preferencesMainScreen"
+            android:layout_centerVertical="true"/>
+
+        <Button
+            android:id="@+id/button_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:drawablePadding="10dp"
+            android:onClick="call"
+            android:text="@string/callbuttonstring"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#f7fd12"
+            android:textSize="80sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_map"
+        android:background="@android:color/transparent"
+        android:layout_weight="1"
+        android:onClick="map"
+
+        android:text="@string/mapbuttonstring"
+        android:textColor="#fff7fd12"
+
+        android:textStyle="bold"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_gravity="center_horizontal"
+        android:textSize="80sp"
+        android:drawablePadding="10dp" />
+
+    <Button
+        android:id="@+id/button_shows"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="upcoming_shows_granada"
+        android:text="@string/shows"
+
+
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:background="@android:color/transparent"
+
+        android:gravity="center_vertical|center_horizontal"
+
+        android:layout_weight="1"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="100dp"
+        android:textColor="#e61780" />
+
+    <Button
+        android:id="@+id/button_blog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="blog"
+        android:text="@string/blog"
+        android:textColor="#ff5cc9fd"
+         android:textStyle="bold"
+        android:typeface="serif"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@android:color/transparent"
+
+
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="80sp"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:id="@+id/button_about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="about"
+        android:text="@string/about"
+        android:textColor="#ff5cc9fd"
+
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:background="@android:color/transparent"
+
+        android:gravity="center_vertical|center_horizontal"
+
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="80sp"
+        android:layout_marginLeft="10dp" />
+
+
+</LinearLayout>

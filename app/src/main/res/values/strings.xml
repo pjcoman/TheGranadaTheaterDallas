@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id">YOUR APP ID</string>
+    <string name="app_name">The Granada</string>
+    <string name="app_name2">Sundown</string>
+    <string name="noitems">no items</string>
+
+    <string name="callbuttonstring">call</string>
+    <string name="mapbuttonstring">map</string>
+    <string name="emailbuttonstring">Email</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login_settings">Login</string>
+    <string name="notifacation_settings">Notifacations</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="single_touchimageview">Single TouchImageView</string>
+    <string name="mirror_touchimageview">Mirroring Example</string>
+    <string name="viewpager_example">ViewPager Example</string>
+    <string name="switch_image_example">Switch Image Example</string>
+    <string name="switch_scaletype_example">Switch ScaleType Example</string>
+
+    <string name="get_scroll_position">getScrollPosition():</string>
+    <string name="get_zoomed_rect">getZoomedRect():</string>
+    <string name="get_current_zoom">getCurrentZoom():</string>
+    <string name="mirroring_text">All touch gestures applied to one TouchImageView will be mirrored on the other.</string>
+    <string name="swipe_viewpager">Swipe left or right to test ViewPager.</string>
+    <string name="switch_image_text">Click TouchImageView to cycle through image resources. Note that the zoom state is maintained.</string>
+    <string name="switch_scaletype_text">Click TouchImageView to cycle through supported ScaleTypes.</string>
+
+    <string name="aboutgranada">History of The Granada Theater
+        \n
+        \n
+        Overview
+        \n
+        \n
+        Granada Theater is located in Lower Greenville, in Dallas, TX. The theater was built in 1946 as a movie house. In 1977 it was converted
+        to a concert hall, only to revert to a movie theatre soon after. In 2004 it was again opened as a concert hall.
+        \n
+        \n
+        Design
+        \n
+        \n
+        The Art Deco design of the Granada reflects the decadence of that Golden Era. The exterior was designed for function with rounded corners,
+        stepped forms and linear accents that echoed the industrialized, streamlined designs of modern machinery, like automobiles.
+        rior decor employs the influence of ancient cultures. The murals were designed by the artist(s) who also worked on Los Angeles’
+        famous Grauman’s Chinese Theater. The grand scale murals depict different genres of film with the ceiling feature depicting
+        a mythological “film goddess” standing over a reel of film. Fitting, since the Greeks gave us theater. The sunburst crowning
+        the goddess and the curved plaster moldings lining the sidewalls point to another Deco theme – designs taken from nature.
+        The neighborhood theater was family friendly providing soundproof rooms available for others. Archives stated the theater
+        was predominantly dark red and the original front doors were made of wood.
+	</string>
+
+    <string name="menu">Menu</string>
+    <string name="blog">blog</string>
+    <string name="about">about</string>
+    <string name="shows">SHOWS</string>
+    <string name="bandnotes">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+    <string name="price">$30.00 (GA) $105.00 (VIP M&amp;G) + fees</string>
+    <string name="musictype">Country/Americana</string>
+    <string name="wherefrom">from Louisiana</string>
+    <string name="actname">Kapow (David Willingham) xxxxxxxxxxxxxxxxxx</string>
+    <string name="dateofshow">Thursday, February 19</string>
+    <string name="timeofshow">Doors: 7:00 pm Show: 8:00 pm</string>
+    <string name="showtime">Doors 7:00pm</string>
+    <string name="otheractsstring">no opening acts</string>
+    <string name="otherinfo">other info</string>
+    <string name="ticketsimagestring">tickets image</string>
+    <string name="bandimagestring">band image</string>
+    <string name="empty">empty</string>
+    <string name="call">call</string>
+    <string name="map">map</string>
+    <string name="mail">mail</string>
+    <string name="granadasignimage">granada sign</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="loginBtn">LOGIN</string>
+    <string name="logoutBtn">LOGOUT</string>
+    <string name="signupBtn">SIGN UP</string>
+    <string name="welcome">Welcome</string>
+    <string name="cball">All</string>
+    <string name="cbnone">None</string>
+    <string name="cbindie">Indie</string>
+    <string name="cbrock">Rock</string>
+    <string name="cbcountry">Country</string>
+    <string name="cbjazz">Jazz/Blues</string>
+    <string name="cbfunk">Funk</string>
+    <string name="cbsoul">Soul</string>
+    <string name="cbalternative">Alternative</string>
+    <string name="cbtribute">Tribute/Cover</string>
+    <string name="cbmovie">Movie</string>
+    <string name="cbsports">Sports</string>
+    <string name="cbcomedy">Comedy</string>
+    <string name="cbacoustic">Acoustic</string>
+    <string name="cbindustrial">Industrial</string>
+    <string name="cbmetal">Metal</string>
+    <string name="cbbuttonset">set</string>
+    <string name="email">Email</string>
+
+    <string-array name="actstyles">
+
+        <item>All</item>
+        <item>NEW SHOWS</item>
+        <item>50\'s</item>
+        <item>60\'s</item>
+        <item>70\'s</item>
+        <item>80\'s</item>
+        <item>Acoustic</item>
+        <item>Alt-Country</item>
+        <item>Alternative</item>
+        <item>Americana</item>
+        <item>Benefit</item>
+        <item>Bluegrass</item>
+        <item>Blues</item>
+        <item>Comedy</item>
+        <item>Country</item>
+        <item>Folk</item>
+        <item>Funk</item>
+        <item>Gospel</item>
+        <item>Indie</item>
+        <item>Industrial</item>
+        <item>Jazz</item>
+        <item>Metal</item>
+        <item>Movie</item>
+        <item>Pop</item>
+        <item>Punk</item>
+        <item>Rock</item>
+        <item>Ska</item>
+        <item>Soul</item>
+        <item>Sports</item>
+        <item>Tribute</item>
+
+
+    </string-array>
+
+</resources>

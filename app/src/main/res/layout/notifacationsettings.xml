@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/granadabk4"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="18">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <CheckBox
+            android:id="@+id/checkBoxAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="@android:color/transparent"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewAll"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cball"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBoxNone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:background="@android:color/transparent"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewNone"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbnone"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <CheckBox
+            android:id="@+id/checkBoxIndie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewIndie"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbindie"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBoxRock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewRock"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbrock"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <CheckBox
+            android:id="@+id/checkBoxCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCountry"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbcountry"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBoxJazzBlues"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewJazzBlues"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbjazz"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <CheckBox
+            android:id="@+id/checkBoxFunk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewFunk"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbfunk"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSoul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewSoul"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbsoul"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <CheckBox
+            android:id="@+id/checkBoxAlternative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewAlternative"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbalternative"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBoxTribute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewTribute"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbtribute"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <CheckBox
+            android:id="@+id/checkBoxMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewMovie"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbmovie"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewSports"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbsports"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <CheckBox
+            android:id="@+id/checkBoxComedy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewComedy"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbcomedy"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBoxAcoustic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewAcoustic"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbacoustic"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <CheckBox
+            android:id="@+id/checkBoxIndustrial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewIndustrial"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbindustrial"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBoxMetal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/Black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewMetal"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/cbmetal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#1390ff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSet"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2"
+        android:text="@string/cbbuttonset"
+        android:textColor="#1390ff"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</LinearLayout>

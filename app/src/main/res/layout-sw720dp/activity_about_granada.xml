@@ -1,0 +1,130 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="comapps.thegranadatheatre.app.AboutFragment"
+    android:id="@+id/about"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:fillViewport="false"
+
+    android:paddingTop="30dp"
+    android:paddingBottom="30dp"
+    android:background="@color/Black">
+
+    <LinearLayout
+        android:id="@+id/aboutgranada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp" >
+
+
+        <ViewFlipper
+            android:id="@+id/viewFlipper1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageView0"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:background="@drawable/food"
+                android:paddingBottom="10dp"
+                tools:ignore="ContentDescription" />
+
+            <ImageView android:id="@+id/imageView1"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/catering"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView2"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/avettbrothers"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView3"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/aesoprock"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView4"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/inside1"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView5"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/inside2"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView6"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/inside3"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView7"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/inside4"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView8"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/inside5"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView9"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/inside6"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView10"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/inside7"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView11"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/inside8"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView12"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/inside9"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView13"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/inside10"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView14"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/inside11"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView15"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/ofmontreal"
+                tools:ignore="ContentDescription" />
+            <ImageView android:id="@+id/imageView16"
+                android:layout_width="fill_parent" android:layout_height="fill_parent"
+                android:background="@drawable/minusthebear"
+                tools:ignore="ContentDescription" />
+
+
+
+
+        </ViewFlipper>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center_horizontal"
+            android:paddingBottom="20dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="20dp"
+            android:text="@string/aboutgranada"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Gold"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+</ScrollView>

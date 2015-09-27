@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:orientation="vertical"
+    tools:context=".ShowsActivityParse"
+              android:background="@drawable/granadabk4">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:id="@+id/spinnerLayout">
+
+
+        <Spinner
+        android:id="@+id/styleSpinner"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:textColor="#ffda09e6"
+        android:textSize="24sp"
+        android:visibility="visible"
+        android:layout_weight="1.5"
+        android:spinnerMode="dropdown"
+        android:dropDownVerticalOffset="40dp"
+        android:background="@drawable/border"
+        android:focusable="true">
+
+
+    </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/granadadivider"
+        android:dividerHeight="2dp"
+        android:smoothScrollbar="false"
+        tools:listitem="@layout/showsrow"></ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Settings" >
+        <CheckBoxPreference
+            android:id="@+id/viewimages_cb"
+            android:key="pref_viewimages"
+            android:checked="true"
+            android:summary="Determines whether images are shown"
+            android:title="Hide images"  />
+
+
+
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>

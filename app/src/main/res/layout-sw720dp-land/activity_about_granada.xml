@@ -1,0 +1,154 @@
+<LinearLayout android:id="@+id/aboutgranada"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/Black"
+              android:orientation="horizontal"
+              android:weightSum="2"
+              android:baselineAligned="false">
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper1"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/catering"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/avettbrothers"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/aesoprock"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/inside1"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/inside2"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/inside3"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/inside4"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/inside5"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/inside6"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/inside7"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/inside8"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/inside9"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/inside10"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/inside11"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/ofmontreal"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/minusthebear"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            tools:ignore="ContentDescription"
+            android:background="@drawable/food"/>
+
+    </ViewFlipper>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/aboutgranada"
+        android:id="@+id/textView"
+        android:layout_weight="1"
+        android:textColor="@color/Gold"
+        android:singleLine="false"
+        android:gravity="center_horizontal"
+        android:textSize="18dp"
+        android:padding="20dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

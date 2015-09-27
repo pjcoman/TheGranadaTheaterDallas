@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/granadabk3"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="80dp"
+    android:paddingTop="20dp"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBoxPreferences"
+            android:button="@drawable/custom_checkbox"
+            android:checked="false"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:onClick="preferencesMainScreen"
+            android:layout_gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/button_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="call"
+            android:text="@string/callbuttonstring"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#fff7fd12"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/button_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="map"
+            android:text="@string/mapbuttonstring"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#fff7fd12"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_shows"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="upcoming_shows_granada"
+            android:text="@string/shows"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#e61780"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/button_blog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="blog"
+            android:text="@string/blog"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#ff5cc9fd"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/button_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="about"
+            android:text="@string/about"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#ff5cc9fd"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
+</LinearLayout>

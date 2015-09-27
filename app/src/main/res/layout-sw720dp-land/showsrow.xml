@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="40dp">
+
+
+
+    <TextView
+        android:id="@+id/showDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/dateofshow"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/showTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="@string/timeofshow"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/showDate"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/bandImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/bandimagestring"
+
+        android:layout_alignParentLeft="false"
+        android:layout_below="@+id/showTime"
+        android:src="@drawable/android_robot"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/buyTickets"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/ticketsimagestring"
+        android:src="@drawable/buyticketsbutton"
+        android:layout_alignParentLeft="false"
+        android:layout_below="@+id/showTime" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+
+
+        android:adjustViewBounds="false"
+        android:scaleType="fitEnd"
+        android:contentDescription="@string/ticketsimagestring"
+        android:src="@drawable/frame"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="false"
+        android:layout_below="@+id/showTime" />
+
+    <TextView
+        android:id="@+id/bandName"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="@string/actname"
+        android:textColor="#FFFF110F"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:padding="5dp"
+        android:layout_below="@+id/showTime"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/ticketPrice"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:textColor="#20e634"
+        android:text="@string/price"
+        android:gravity="center_horizontal"
+        android:textSize="26sp"
+
+        android:layout_below="@+id/otherInfo"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/musicType"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffe68628"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center_horizontal"
+        android:textSize="26sp"
+        android:layout_below="@+id/ticketPrice"
+        android:text="@string/musictype"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/bandWhereFrom"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="@string/wherefrom"
+        android:textColor="#ff2678e6"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="26sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/musicType"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="0dp"
+        android:text="@string/otherinfo"
+        android:id="@+id/otherInfo"
+        android:layout_below="@+id/bandName"
+        android:textColor="#da09e6"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="26sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/otherActs"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="@string/otheractsstring"
+        android:textColor="#e6e045"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:layout_below="@+id/bandWhereFrom"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/bandNotes"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:textColor="#b8b8b8"
+        android:text="@string/bandnotes"
+        android:gravity="center_horizontal"
+        android:textSize="26sp"
+        android:layout_below="@+id/otherActs"
+        android:layout_margin="3dp"
+        android:padding="2dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
